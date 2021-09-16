@@ -1,0 +1,111 @@
+
+/*makes the webpage's background color a pink-ish color*/
+body {
+    background-color: #E89AC7;
+}
+
+/*styling for the top of the page*/
+#title {
+    font-size: 55px;
+    width: 865px;
+    border: 10px solid #C1F762;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #A6EEE6FF;
+    max-width: 960px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+
+/*styling for the backgroound of the body where the character cards are going to be placed*/
+.main {
+    width: 1200px;
+    background-color: #C1F762;
+    opacity: 90%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+/*styling to make a container for the search options*/
+.search-options {
+    width: 1200px;
+    opacity: 90%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+}
+
+/*styling to make elements go side-by-side into columns*/
+.column {
+    float: left;
+    width: 29%;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: aqua;
+    border: 5px solid black
+}
+
+/*styling to create rows for the page when there are more than three items to display*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*styling for the character's name*/
+h3 {
+    text-align: center;
+    border: 5px black;
+    font-size: medium;
+}
+
+/*styling for the character's image*/
+.character-img {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px black;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+
+/*styling for each individual search option*/
+.heading {
+    font-size: 20px;
+    width: 650px;
+    text-align: center;
+    border: 10px solid #C1F762;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#episode-info {
+    width: 700px;
+    border-bottom: 10px solid #C1F762;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #A6EEE6FF;
+    max-width: 960px;
+    margin: auto;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.result-card {
+    max-height: 620px;
+}
+
+footer {
+    text-align: center;
+}

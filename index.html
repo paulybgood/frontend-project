@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script defer src="/app.js"></script>
+    <title>Rick and Morty Character Finder</title>
+</head>
+<body class="background">
+    <div id="title">Meet the Characters of Rick and Morty</div>
+    <br>
+    <br>
+    <div class="row search-options">
+        <div class="heading column">
+            <div>Search for the Rick and Morty Characters Based on an Episode They Appeared in during the First Four Seasons:</div>
+            <br>
+            <input type="text" placeholder="Enter a # 1 through 41" name="episode-no-search" id="user-input1" required>
+            <button id="submit1">Search</button>
+        </div>
+        <div class="heading column">
+            <div>Search for the Rick and Morty Characters Based on Episode Name:</div>
+            <br>
+            <input type="text" placeholder="Enter Episode Name" name="episode-name-search" id="user-input2" required>
+            <button id="submit2">Search</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="episode-info">The Main Characters: The Smith Family</div>
+    <br>
+    <br>
+    <div class="main">
+        <div id="results">
+        </div>
+    </div>
+    <br>
+    <footer>2021 - PBG Productions</footer>
+</body>
+</html>
